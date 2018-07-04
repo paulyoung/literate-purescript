@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Literate programming in PureScript",
   "bin": {
-    "lit": "index.js"
+    "lit": "bin/index.js"
   },
   "scripts": {
     "compile": "psa -c \"src/**/*.purs\" \"bower_components/purescript-*/src/**/*.purs\"",
