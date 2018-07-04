@@ -23,3 +23,5 @@ or
 ```
 pulp build --include generated-src
 ```
+
+See the [example](./example) project for a full demonstration.
