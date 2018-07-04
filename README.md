@@ -10,7 +10,7 @@ Literate programming in PureScript.
 npm install -g literate-purescript
 ```
 
-Run `lit` in the root of a project to populate the `generate-src` directory with PureScript modules based on code blocks defined in Markdown files.
+Run `lit` in the root of a project to populate the `generated-src` directory with PureScript modules based on code blocks defined in Markdown files.
 
 Then, include the `generated-src` directory when compiling PureScript to verify that everything is valid.
 
