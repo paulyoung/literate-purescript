@@ -1,6 +1,6 @@
 {
   "name": "literate-purescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Literate programming in PureScript",
   "bin": {
     "lit": "bin/index.js"
