@@ -1,0 +1,27 @@
+{
+  "name": "literate-purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-aff": "^5.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-console": "^4.1.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-either": "^4.0.0",
+    "purescript-lists": "^5.0.0",
+    "purescript-markdown": "^12.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-node-fs-aff": "^6.0.0",
+    "purescript-node-process": "^6.0.0",
+    "purescript-pathy": "^6.0.0",
+    "purescript-prelude": "^4.0.1",
+    "purescript-strings": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

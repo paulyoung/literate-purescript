@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "lit": "lit"
+  },
+  "devDependencies": {
+    "literate-purescript": "^0.1.0"
+  }
+}

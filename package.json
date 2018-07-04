@@ -1,0 +1,30 @@
+{
+  "name": "literate-purescript",
+  "version": "0.1.0",
+  "description": "Literate programming in PureScript",
+  "bin": {
+    "lit": "index.js"
+  },
+  "scripts": {
+    "compile": "psa -c \"src/**/*.purs\" \"bower_components/purescript-*/src/**/*.purs\"",
+    "prebundle": "rm -rf output && rm -rf lib && npm run compile",
+    "bundle": "purs bundle output/*/*.js --output lib/bundle.js && echo 'module.exports = PS;' >> lib/bundle.js",
+    "prepublishOnly": "npm run bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulyoung/literate-purescript.git"
+  },
+  "keywords": [
+    "purescript"
+  ],
+  "author": "Paul Young",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paulyoung/literate-purescript/issues"
+  },
+  "homepage": "https://github.com/paulyoung/literate-purescript#README",
+  "devDependencies": {
+    "purescript-psa": "^0.6.0"
+  }
+}
