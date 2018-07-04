@@ -1,0 +1,11 @@
+language: node_js
+dist: trusty
+sudo: required
+node_js: 10
+install:
+  - npm install -g purescript@^0.12 pulp@^12.3.0 bower purescript-psa@^0.6.0
+  - bower install
+script:
+  - npm run bundle
+  - npm link
+  - (cd example && bower install && pulp build && lit)
