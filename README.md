@@ -1,5 +1,7 @@
 # literate-purescript
 
+[![Build Status](https://travis-ci.com/paulyoung/literate-purescript.svg?branch=master)](https://travis-ci.com/paulyoung/literate-purescript)
+
 Literate programming in PureScript.
 
 ## Usage
